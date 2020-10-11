@@ -1,0 +1,24 @@
+{
+  "name": "eve-entities",
+  "version": "0.1.0",
+  "description": "Entities used in the various EVE applications",
+  "main": "index.js",
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hephaestus-Technologies/eve-entities.git"
+  },
+  "keywords": [
+    "EVE"
+  ],
+  "author": "N. Floris Copier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hephaestus-Technologies/eve-entities/issues"
+  },
+  "homepage": "https://github.com/Hephaestus-Technologies/eve-entities#readme"
+}

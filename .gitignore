@@ -1,0 +1,23 @@
+# User-specific files
+workplace.xml
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# Folder config file
+Desktop.ini
+
+.idea/
+
+/node_modules/
+/client/node_modules/
+/server/node_modules/
+
+package-lock.json
