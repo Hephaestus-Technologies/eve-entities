@@ -1,4 +1,4 @@
-import Activity from "manufacturing/activity";
+import Activity from "../manufacturing/activity";
 
 export default interface Blueprint {
 
