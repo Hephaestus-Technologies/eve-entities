@@ -1,4 +1,4 @@
-import ItemBatch from "../general/item_batch";
+import ItemBatch from "../general/item-batch";
 
 export default interface Activity {
 

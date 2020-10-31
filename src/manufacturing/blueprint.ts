@@ -6,6 +6,12 @@ export default interface Blueprint {
 
     manufacturing: Activity;
 
-    reaction: Activity;
+    materialResearch: Activity;
+
+    timeResearch: Activity;
+
+    copying: Activity;
+
+    invention: Activity;
 
 }
