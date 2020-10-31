@@ -3,6 +3,8 @@ import {BlueprintGroup} from "./blueprint-group";
 import {PiGroup} from "./pi-group";
 import {ReactionGroup} from "./reaction-group";
 
+export type Subgroup = BlueprintGroup | PiGroup | ReactionGroup | null;
+
 export default interface ItemType {
 
     typeId: number;
@@ -11,6 +13,6 @@ export default interface ItemType {
 
     group: ManufacturingGroup;
 
-    subgroup: BlueprintGroup | PiGroup | ReactionGroup | null
+    subgroup: Subgroup
 
 }
