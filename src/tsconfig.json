@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
+    "module": "CommonJS",
     "lib": [ "es2017" ],
     "baseUrl": ".",
     "paths": {
       "*": ["*"]
-    }
+    },
+    "target": "ESNext",
+    "outDir": "../dist",
+    "declaration": true
   }
 }

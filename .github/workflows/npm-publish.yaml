@@ -19,6 +19,9 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@hephaestus-technologies'
 
+      - name: Build
+        run: npm run build
+
       - name: Publish
         run: npm publish
         env:
