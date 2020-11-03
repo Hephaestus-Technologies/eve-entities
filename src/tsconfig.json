@@ -1,13 +1,8 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
-    "lib": [ "es2017" ],
+    "lib": [ "ESNext" ],
     "baseUrl": ".",
-    "paths": {
-      "*": ["*"]
-    },
     "target": "ESNext",
-    "outDir": "../dist",
     "declaration": true
   }
 }

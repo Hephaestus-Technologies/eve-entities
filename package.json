@@ -1,12 +1,18 @@
 {
   "name": "@hephaestus-technologies/eve-entities",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": "N. Floris Copier",
   "license": "MIT",
   "description": "Entities used in my various EVE applications",
   "keywords": [
     "EVE"
   ],
+  "exports":  {
+    ".": {
+      "browser": "./dist/esm",
+      "node": "./dist/node"
+    }
+  },
   "files": [
     "dist"
   ],
@@ -19,10 +25,14 @@
   },
   "homepage": "https://github.com/Hephaestus-Technologies/eve-entities#readme",
   "publishConfig": {
-    "access": "restricted",
+    "access": "public",
     "registry": "https://npm.pkg.github.com/Hephaestus-Technologies"
   },
   "scripts": {
-    "build": "tsc --project src/tsconfig.json"
+    "build-esm": "tsc --project src/tsconfig.json --outDir dist/esm --module ESNext",
+    "build-node": "tsc --project src/tsconfig.json --outDir dist/node --module CommonJS"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
   }
 }

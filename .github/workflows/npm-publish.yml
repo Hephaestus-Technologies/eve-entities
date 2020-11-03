@@ -20,7 +20,7 @@ jobs:
           scope: '@hephaestus-technologies'
 
       - name: Build
-        run: npm run build
+        run: npm run build-esm | npm run build-node
 
       - name: Publish
         run: npm publish
