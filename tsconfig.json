@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "declaration": true,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "newLine": "lf"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": true
+}

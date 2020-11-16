@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "lib": [ "ESNext" ],
-    "baseUrl": ".",
-    "target": "ESNext",
-    "declaration": true
-  }
-}
